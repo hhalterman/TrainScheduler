@@ -1,0 +1,29 @@
+:root {
+    --dark-purple: #3E2644;
+    --medium-purple: #503A56;
+	--light-purple: #A399A7;
+}
+
+header.jumbotron {
+    background-color: var(--dark-purple);
+    color: var(--white);
+}
+
+.table th {
+    color: var(--dark-purple);
+    font-weight: bold;  
+}
+
+#form {
+    background-color: var(--light-purple);
+}
+
+#submit {
+    background-color: var(--dark-purple);
+    border-color: var(--medium-purple);
+}
+
+#footer {
+    background-color: var(--medium-purple);
+    color: var(--white);
+}
