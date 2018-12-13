@@ -77,13 +77,14 @@ $(document).ready(function () {
         var nextTrain = moment().add(tMinutesTillTrain, "minutes");
 
 
-        $("tbody").append(`<tr class= 'tr'>
-                        <td>${newTrain.trainName}</td>
-                        <td>${newTrain.destination}</td>
-                        <td>${newTrain.frequency}</td>
-                        <td>${moment(nextTrain).format("hh:mm")}</td>
-                        <td>${tMinutesTillTrain}</td>
-                      </tr>`)
+        $("tbody").append(
+            `<tr class= 'tr'>
+                <td>${newTrain.trainName}</td>
+                <td>${newTrain.destination}</td>
+                <td>${newTrain.frequency}</td>
+                <td>${moment(nextTrain).format("hh:mm")}</td>
+                <td>${tMinutesTillTrain}</td>
+            </tr>`)
 
 
 
